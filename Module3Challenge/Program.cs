@@ -5,8 +5,8 @@ namespace ZooAnimalsAssignment
     class Program
     {
         static void Main(string[] args)
-        {
-            Console.Write("Enter the animal's hunger level (1-10): ");
+        
+        Console.Write("Enter the animal's hunger level (1-10): ");
             int hungerLevel = int.Parse(Console.ReadLine());
 
             if (hungerLevel >= 8)
@@ -48,10 +48,10 @@ namespace ZooAnimalsAssignment
                     Console.WriteLine("Happy hour at the zoo is watching the seals do sweet tricks! ");
                     break;
                 case 7:
-                    Console.WriteLine("It's Saturday! Instead of being sat at home - come sit on the train and take a spin around the zoo! ")
+                    Console.WriteLine("It's Saturday! Instead of being sat at home - come sit on the train and take a spin around the zoo! ");
                     break;
             
             }
-        }
+        
     }
 }
