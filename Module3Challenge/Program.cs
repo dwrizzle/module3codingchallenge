@@ -5,8 +5,7 @@ namespace ZooAnimalsAssignment
     class Program
     {
         static void Main(string[] args)
-        
-        Console.Write("Enter the animal's hunger level (1-10): ");
+            Console.Write("Enter the animal's hunger level (1-10): ");
             int hungerLevel = int.Parse(Console.ReadLine());
 
             if (hungerLevel >= 8)
