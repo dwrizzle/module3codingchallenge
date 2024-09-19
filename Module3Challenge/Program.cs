@@ -5,6 +5,7 @@ namespace ZooAnimalsAssignment
     class Program
     {
         static void Main(string[] args)
+        {
             Console.Write("Enter the animal's hunger level (1-10): ");
             int hungerLevel = int.Parse(Console.ReadLine());
 
@@ -21,7 +22,7 @@ namespace ZooAnimalsAssignment
                 Console.WriteLine("Tortoise: Slow and steady-I'll have some lettuce. ");
             }
 
-            Console.Write("Enter the day of the week as a number. With 1 for Sunday, 2 for Monday, etc.: ")
+            Console.Write("Enter the day of the week as a number. With 1 for Sunday, 2 for Monday, etc.: ");
             int Dayoftheweek = int.Parse(Console.ReadLine());
 
 
@@ -51,6 +52,6 @@ namespace ZooAnimalsAssignment
                     break;
             
             }
-        
+        }
     }
 }
